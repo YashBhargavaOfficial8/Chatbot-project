@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Student Chatbot</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="brand-row">
+          <h1>UniAssist</h1>
+          <span class="status-pill">AI Online</span>
+        </div>
+        <p>
+          Your smart campus companion for admissions, fees, exams, hostel and
+          placements.
+        </p>
+        <div class="topic-row">
+          <span>Admissions</span>
+          <span>Fees</span>
+          <span>Scholarships</span>
+          <span>Exams</span>
+          <span>Placements</span>
+        </div>
+      </header>
+
+      <section id="chat-window" class="chat-window" aria-live="polite">
+        <article class="bubble bot">
+          Hello! I am UniAssist. How can I help you today?
+        </article>
+      </section>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="message-input"
+          type="text"
+          placeholder="Type your question here..."
+          autocomplete="off"
+          required
+        />
+        <button id="send-btn" type="submit">Send</button>
+      </form>
+
+      <footer class="footer-note">
+        Built for university student support - Dark Theme Edition
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
