@@ -9,9 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "AI powered student help chatbot using Gemini API",
+  "description": "AI powered student help chatbot using OpenRouter API",
   "dependencies": {
-    "@google/genai": "^2.7.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
